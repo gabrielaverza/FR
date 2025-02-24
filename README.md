@@ -16,16 +16,18 @@ Para executar este projeto, você precisará das seguintes bibliotecas Python:
 ### Instalação das Dependências
 
 Você pode instalar as dependências usando pip:
-pip install requirements.txt 
-
+  ```
+pip install requirements.txt
+  ```
 
 ### Execução do Código
 
 1. **Clonar o Repositório**:
+  ```
 git clone https://github.com/seu-usuario/reconhecimento-facial.git
+  ```
 
-
-2. **Executar o Script**:
+3. **Executar o Script**:
 - Coloque as imagens que deseja comparar na pasta `Img/`.
 - Edite as variáveis `img1_path` e `img2_path` no arquivo `fr.py` para apontar para as imagens desejadas.
 - Execute o script com Python:
