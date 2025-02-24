@@ -1,4 +1,4 @@
-# Reconhecimento Facial em Imagens de Baixa Qualidade
+# Avaliação do Impacto de Técnicas de Pré-Processamento no Reconhecimento Facial em Imagens de Baixa Qualidade
 Este projeto avalia o impacto de diferentes técnicas de pré-processamento no reconhecimento facial em imagens de baixa qualidade.
 
 ## Instruções de Uso
