@@ -47,3 +47,62 @@ O script permite testar diferentes combinações de pré-processamento:
 - **Landmarks**: Uso de landmarks faciais para alinhar o rosto.
 
 Essas configurações são aplicadas automaticamente em todas as combinações possíveis.
+
+---
+
+# Evaluating the Impact of Preprocessing Techniques on Face Recognition in Low-Quality Images
+
+This project evaluates the impact of different **preprocessing techniques** on **face recognition** in **low-quality images**.
+
+## 📌 Usage Instructions
+
+### Dependencies
+
+To run this project, you'll need the following Python libraries:
+
+* **OpenCV**: For image processing
+* **Dlib**: For facial landmark detection
+* **face\_recognition**: For face recognition
+* **numpy**: For mathematical operations
+* **pandas**: For data manipulation
+
+### Installing Dependencies
+
+You can install all dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Code
+
+1. **Clone the Repository**:
+
+```bash
+git clone https://github.com/your-username/face-recognition.git
+```
+
+2. **Run the Script**:
+
+* Place the images you want to compare in the `Img/` folder.
+* Edit the `img1_path` and `img2_path` variables in the `fr.py` file to point to the desired images.
+* Execute the script using Python:
+
+```bash
+python fr.py
+```
+
+3. **Analyze the Results**:
+
+* The results will be printed in the terminal, showing the similarity between images for different preprocessing configurations.
+
+### Preprocessing Configurations
+
+The script allows testing various combinations of preprocessing techniques:
+
+* **Grayscale**: Converts the image to grayscale
+* **Bilateral Filter**: Applies a bilateral filter to smooth the image
+* **Landmarks**: Uses facial landmarks to align the face
+
+These configurations are automatically applied in all possible combinations.
+
